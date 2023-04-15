@@ -12,7 +12,6 @@ namespace CV_Abp.Domain
         public virtual string Name { get; set; }
         public virtual string IssuingOrganization { get; set; }
         public virtual DateTime? CertificationDate { get; set; }
-        public virtual string Description { get; set; }
         public virtual Guid ResumeId { get; set; }
         public Resume Resume { get; set; }
 

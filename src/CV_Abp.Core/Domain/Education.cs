@@ -13,7 +13,6 @@ namespace CV_Abp.Domain
         public virtual string SchoolName { get; set; }
         public virtual DateTime? GraduationDate { get; set; }
         public virtual string Major { get; set; }
-        public virtual string Description { get; set; }
         public virtual Guid ResumeId { get; set; }
         public Resume Resume { get; set; }
 
